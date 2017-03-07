@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF4C78631E6EA58100AD2577 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C78621E6EA58100AD2577 /* NavigationController.swift */; };
 		FF615C861E6D62B100551E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF615C851E6D62B100551E42 /* AppDelegate.swift */; };
 		FF615C881E6D62B100551E42 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF615C871E6D62B100551E42 /* MasterViewController.swift */; };
 		FF615C8B1E6D62B100551E42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF615C891E6D62B100551E42 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF4C78621E6EA58100AD2577 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		FF615C821E6D62B100551E42 /* DemoLifeCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLifeCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF615C851E6D62B100551E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF615C871E6D62B100551E42 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				FF615C851E6D62B100551E42 /* AppDelegate.swift */,
 				FF615C871E6D62B100551E42 /* MasterViewController.swift */,
 				FF707D881E6D6D4400F84F8E /* DetailsViewController.swift */,
+				FF4C78621E6EA58100AD2577 /* NavigationController.swift */,
 				FF615C891E6D62B100551E42 /* Main.storyboard */,
 				FF615C8F1E6D62B100551E42 /* Assets.xcassets */,
 				FF615C911E6D62B100551E42 /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 			files = (
 				FF615C881E6D62B100551E42 /* MasterViewController.swift in Sources */,
 				FF615C8E1E6D62B100551E42 /* DemoLifeCycle.xcdatamodeld in Sources */,
+				FF4C78631E6EA58100AD2577 /* NavigationController.swift in Sources */,
 				FF615C861E6D62B100551E42 /* AppDelegate.swift in Sources */,
 				FF707D891E6D6D4400F84F8E /* DetailsViewController.swift in Sources */,
 			);

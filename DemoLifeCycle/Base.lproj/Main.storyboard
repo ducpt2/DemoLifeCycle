@@ -12,7 +12,7 @@
         <!--Navigation Controller-->
         <scene sceneID="5ms-YF-t1q">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jIr-d7-qT1" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jIr-d7-qT1" customClass="NavigationController" customModule="DemoLifeCycle" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NRh-ls-mka">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -30,7 +30,7 @@
         <!--Master View Controller-->
         <scene sceneID="93s-kb-rq0">
             <objects>
-                <tableViewController id="GL2-yR-FOS" customClass="MasterViewController" customModule="DemoLifeCycle" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MasterViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GL2-yR-FOS" customClass="MasterViewController" customModule="DemoLifeCycle" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="HnG-QS-OFs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,7 @@
         <!--Details View Controller-->
         <scene sceneID="TZa-xU-IYc">
             <objects>
-                <viewController id="cCO-pp-cn4" customClass="DetailsViewController" customModule="DemoLifeCycle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cCO-pp-cn4" customClass="DetailsViewController" customModule="DemoLifeCycle" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pSc-sa-Qtk"/>
                         <viewControllerLayoutGuide type="bottom" id="e1v-GR-ZRU"/>

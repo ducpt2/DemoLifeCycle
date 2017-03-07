@@ -9,6 +9,13 @@
 import UIKit
 
 class MasterViewController: UITableViewController {
+    
+    static var identifier = "MasterViewController"
+    static var instance : MasterViewController {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        return storyboard.instantiateViewController(withIdentifier: MasterViewController.identifier) as! MasterViewController
+    }
+    
     var objects = [Any]()
 
     override func viewDidLoad() {

@@ -10,6 +10,18 @@ import UIKit
 
 class DetailsViewController: UIViewController {
     
+    // - MARK: Việc khởi tạo một class nên để cho bản thân cho Class xử lý.
+    
+    // Các class khác nên biết càng ít về nó càng tốt để đảm bảo tính đóng gói. (Nó không cần biết là storyboard chứa ViewController là gì, identifier của nó là gì...)
+    
+    // Việc khởi tạo ViewController Chỉ cần gọi ViewController.instance là ok
+    
+    static var identifier = "DetailsViewController"
+    static var instance : DetailsViewController {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        return storyboard.instantiateViewController(withIdentifier: DetailsViewController.identifier) as! DetailsViewController
+    }
+    
     @IBOutlet weak var detailDescriptionLabel: UILabel!
     
     
